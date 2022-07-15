@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;;
+}
+
+body{
+    background-color: #212529 !important;
+}
+
+.input{
+    border-radius: 5px;
+    outline: none;
+}
+
+.jumbotron{
+    padding: 50px;
+}
+
+
+.btn{
+    background-color: #10e7dd !important;
+    border: 1px solid #10e7dd;
+    color: rgb(44, 44, 44) !important;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    color: black !important;
+    border: 1px solid #10e7dd;
+}
+
+.btn-sm{
+    color: black !important;
+}
+
+.card{
+    background-color: #32363a !important;
+    color: white !important;
+}
+
+.jumbotron{
+    background-color: #32363a !important;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 950px) {
+
+    .jumbotron{
+        padding: 20px;
+    }
+}
